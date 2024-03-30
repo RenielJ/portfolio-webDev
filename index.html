@@ -1,101 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>My Resume</title>
-    </head>
-    <body>
-        <main>
-        <!-- Personal Identity -->
-        <section>
-            <h1>Bambao, James Reniel</h1>
-            <img src="./assets/img/profile_reniel.jpg">
-            <h2>Contact details</h2>
-
-        </section>
-        <!-- Summary -->
-        <section>
-            <h2>Objectives:</h2>
-            <ul>
-                <li>A highly motivated to learn new things and experience the web development and to be a full stock developer in future.</li>
-                <li>Creative and enthusiastic worker, aiming for free lancing in web development.</li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Dual Portfolio</title>
+    <style>
+        #main-page{
+            background-color: #FFF6E9;
+        }
+        #footer{
+            background-color: #BBE2EC;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container-fluid bg-success">
+            <header class="d-flex justify-content-center py-4">
+              <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#" class="nav-link text-white" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="./resume.html" target="_blank" class="nav-link text-white">Resume</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">More</a></li>
+              </ul>
+            </header>
+          </div>
+    </nav>
+    <section id="main-page">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./assets/img/main-page-1.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" height="500px" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image</h1>
+                <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <button type="button" class="btn btn-success btn-lg px-4 me-md-2">My Teaching Portfolio</button>
+                  <button type="button" class="btn btn-outline-secondary btn-lg px-4">My Industrial Porfolio</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <footer id="footer">
+        <footer class="py-5">
+            <ul class="nav justify-content-center border-bottom pb-5 mt-5">
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Resume</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">More</a></li>
             </ul>
-        </section>
-        <hr>
-        <!-- Education -->
-        <section>
-            <h2> Education </h2>
-            <h3> TUPT-Taguig Campus <h4>June 2020 - Feb 2024</h4></h3>
-            <h5><em>Major in electronics Technology</em></h5>
-            <ul>
-                <li>Highly technical educated teacher.</li>
-                <li>intern as ICT Teacher in Bagumbayan National High School.<>
-            </ul>
-        </section>
-        <hr>
-        <!-- work experience -->
-        <section>
-        <h2>Work Experience</h2>
-        <h3> Project Techinical Assistant 1 </h3>
-        <h5><em>Ma'am Ramos's Student Assistant</em></h5>
-            <ol>
-                <li>Assist in the monitoring and evaluation aof the academic performance of scholars using the prescribed guidelines from SEI every end of academic term;</li>
-                <li>Assist in the preparation of status report of scholars every end of term;</li>
-                <li>Prepare communications relative to the implementation of the scholarship program.</li>
-                <li>Update records of scholars in the database periodically;</li>
-                <li>Provide technical assistajce in the implementation of other SEI activies; and</li>
-                <li>Perform other functions that may be assigned by the immediate supervisor from time to time.
-                </li>
-            </ol>
-        </section>
-        <hr>
-        <!-- Skills -->
-        <section>
-        <h2>Skills</h2>
-        <h3> Technical Skill (TLE)</h3>
-            <ul>
-                <li><h5></h5> 
-
-                </li>
-                <li><h5> Electronics Assembly and Servicing</h5>
-                    <ol> 
-                        <li>Design PCB boards manual.</li>
-                        <li>Electronics Components installation & Removal.</li>
-                    </ol>
-                </li>
-                <li> <h5>Electrical job</h5> 
-                    <ol>
-                        <li>Electrical Safetyness.</li>
-                        <li>Wirings and Installation.</li>
-                    </ol>
-                </li>
-            </ul>
-        </section>
-        <hr>
-        <!-- Awards -->
-        <section>
-            <h2>Awards and certications</h2>
-            <ol>
-                <li>National Certificate 2 - Electronics Product Assembly and Servicing.</li>
-                <li>National Certificate 2 - Electrical Installation Maintenance.</li>
-            </ol>
-        </section>
-        <hr>
-        <!-- Others -->
-        <section>
-            <h2>Other</h2>
-
-            <ul><h3>Learn about me? </h3>
-            <p><em>Click the Hyperlink Below</em></p>
-            <li><a href="./templates/hobby.html">My Hobbies</a></li>
-            <li><a href="./templates/contact.html">Contact me</a></li>
-            </ul>
-        </section>
-        <!-- footer -->
-        <footer>
-            <p><em>&copy James Reniel Bambao. All rights reserved.</em></p>
-        </footer>
-        </main>
-    </body>
+            <p class="text-center text-body-secondary">© 2024 My Portfolio, Education ~ Industry</p>
+          </footer>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 </html>
